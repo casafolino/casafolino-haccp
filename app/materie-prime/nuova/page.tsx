@@ -194,7 +194,7 @@ export default function NuovaMateriaPrimaPage() {
               <button
                 key={r.val}
                 onClick={() => setResult(r.val)}
-                style={{ width: '100%', height: '48px', borderRadius: '10px', border: 'none', cursor: 'pointer', fontSize: '14px', fontWeight: 600, background: result === r.val ? r.bg : '#F7F3EE', color: result === r.val ? 'white' : '#1A1A1A', border: result === r.val ? 'none' : '1px solid #E8E0D5' }}
+                style={{ width: '100%', height: '48px', borderRadius: '10px', cursor: 'pointer', fontSize: '14px', fontWeight: 600, background: result === r.val ? r.bg : '#F7F3EE', color: result === r.val ? 'white' : '#1A1A1A', border: result === r.val ? 'none' : '1px solid #E8E0D5' }}
               >
                 {r.label}
               </button>
